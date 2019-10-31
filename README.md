@@ -1,2 +1,2 @@
 # R
-Repository for test scipts in R
+Repository for test scripts in R
