@@ -12,5 +12,5 @@ rm -f .bin/ui.o
 make
 mv main.o ./bin/main.o
 mv main ./bin/main
-mv ui.o ./bin/main.o
 rm -f Makefile
+./bin/main
