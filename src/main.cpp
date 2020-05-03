@@ -1,11 +1,19 @@
 #include <QApplication>
-#include <QWidget>
+
+// include gui libs
+#include "uix/ui.cpp"
+
+
 int main(int argc, char *argv[]) {
+
     // create application
     QApplication app(argc, argv);
-    QWidget window;
-    window.resize(250, 150);
-    window.setWindowTitle("Simple example");
-    window.show();
+
+    // main ui
+    UI* main_ui = new UI();
+    // show ui Maximized
+    main_ui->showMaximized();
+    // execute application
     return app.exec();
+
 }
